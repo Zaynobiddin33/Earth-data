@@ -1,0 +1,142 @@
+{
+ "fergana": {
+  "y_15": {
+   "mae": 0.03756,
+   "clim_mae": 0.06123,
+   "skill": 38.66,
+   "within05": 72.91,
+   "n_test": 69546,
+   "n_train": 5262489,
+   "cells": 1292
+  },
+  "y_60": {
+   "mae": 0.05837,
+   "clim_mae": 0.0674,
+   "skill": 13.4,
+   "within05": 52.54,
+   "n_test": 69546,
+   "n_train": 5262489,
+   "cells": 1292
+  }
+ },
+ "kashkadarya": {
+  "y_15": {
+   "mae": 0.0273,
+   "clim_mae": 0.0543,
+   "skill": 49.71,
+   "within05": 83.91,
+   "n_test": 67896,
+   "n_train": 5259124,
+   "cells": 1156
+  },
+  "y_60": {
+   "mae": 0.04365,
+   "clim_mae": 0.05621,
+   "skill": 22.35,
+   "within05": 67.28,
+   "n_test": 67896,
+   "n_train": 5259124,
+   "cells": 1156
+  }
+ },
+ "khorezm_karakalpak": {
+  "y_15": {
+   "mae": 0.02082,
+   "clim_mae": 0.03733,
+   "skill": 44.23,
+   "within05": 90.22,
+   "n_test": 213523,
+   "n_train": 4293108,
+   "cells": 4158
+  },
+  "y_60": {
+   "mae": 0.03763,
+   "clim_mae": 0.04062,
+   "skill": 7.36,
+   "within05": 72.37,
+   "n_test": 213523,
+   "n_train": 4293108,
+   "cells": 4158
+  }
+ },
+ "other": {
+  "y_15": {
+   "mae": 0.01807,
+   "clim_mae": 0.03229,
+   "skill": 44.03,
+   "within05": 90.01,
+   "n_test": 166930,
+   "n_train": 4579318,
+   "cells": 3021
+  },
+  "y_60": {
+   "mae": 0.02655,
+   "clim_mae": 0.03471,
+   "skill": 23.51,
+   "within05": 83.61,
+   "n_test": 166930,
+   "n_train": 4579318,
+   "cells": 3021
+  }
+ },
+ "surkhandarya": {
+  "y_15": {
+   "mae": 0.02964,
+   "clim_mae": 0.05179,
+   "skill": 42.78,
+   "within05": 81.69,
+   "n_test": 53746,
+   "n_train": 5369050,
+   "cells": 954
+  },
+  "y_60": {
+   "mae": 0.04658,
+   "clim_mae": 0.0547,
+   "skill": 14.84,
+   "within05": 64.93,
+   "n_test": 53746,
+   "n_train": 5369050,
+   "cells": 954
+  }
+ },
+ "tashkent": {
+  "y_15": {
+   "mae": 0.03523,
+   "clim_mae": 0.05993,
+   "skill": 41.22,
+   "within05": 75.92,
+   "n_test": 51006,
+   "n_train": 5404671,
+   "cells": 945
+  },
+  "y_60": {
+   "mae": 0.05597,
+   "clim_mae": 0.06274,
+   "skill": 10.79,
+   "within05": 55.1,
+   "n_test": 51006,
+   "n_train": 5404671,
+   "cells": 945
+  }
+ },
+ "zarafshan": {
+  "y_15": {
+   "mae": 0.029,
+   "clim_mae": 0.05402,
+   "skill": 46.32,
+   "within05": 81.67,
+   "n_test": 180241,
+   "n_train": 4429650,
+   "cells": 3226
+  },
+  "y_60": {
+   "mae": 0.04677,
+   "clim_mae": 0.0569,
+   "skill": 17.81,
+   "within05": 65.29,
+   "n_test": 180241,
+   "n_train": 4429650,
+   "cells": 3226
+  }
+ }
+}

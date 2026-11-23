@@ -1,0 +1,36 @@
+# --- environment and caches
+env/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# --- data: pulled from Earth Engine / Google Drive, too large for git
+raw/
+parquet/
+backup_prescaffold/
+*.csv
+*.parquet
+
+# --- generated outputs that rebuild from the scripts (tens to hundreds of MB)
+grid_uz_predictions.json
+grid_fergana_predictions.json
+grid_fergana_map_data.json
+grid_fergana_districts.json
+grid_uz_districts.json*
+predictions.json
+map_data.json
+districts.json
+f50_*.json
+backtest_2025_maps.json
+archive/*/*/predictions.json
+
+# --- experiments and retired code kept locally only
+models_f50/
+# modis/ is kept: 17_build_s2_table.py still reads its training.parquet for land cover
+train.py
+
+# --- working backups (*.pre-<change>) and scratch
+*.pre-*
+*.bak*
+*.notarchived

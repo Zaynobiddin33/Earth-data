@@ -1,0 +1,82 @@
+{
+ "y_15": {
+  "full": {
+   "features": 36,
+   "mae": 0.02436,
+   "clim_mae": 0.04594,
+   "skill": 46.98,
+   "within05": 86.04,
+   "r2": 0.9463
+  },
+  "lean": {
+   "features": 14,
+   "mae": 0.02425,
+   "clim_mae": 0.04594,
+   "skill": 47.21,
+   "within05": 85.99,
+   "r2": 0.9462
+  },
+  "mae_cost_pct": -0.45,
+  "skill_drop_pts": -0.23
+ },
+ "y_30": {
+  "full": {
+   "features": 36,
+   "mae": 0.03097,
+   "clim_mae": 0.047,
+   "skill": 34.09,
+   "within05": 79.12,
+   "r2": 0.9133
+  },
+  "lean": {
+   "features": 14,
+   "mae": 0.03147,
+   "clim_mae": 0.047,
+   "skill": 33.04,
+   "within05": 78.61,
+   "r2": 0.9098
+  },
+  "mae_cost_pct": 1.61,
+  "skill_drop_pts": 1.05
+ },
+ "y_45": {
+  "full": {
+   "features": 36,
+   "mae": 0.03546,
+   "clim_mae": 0.04804,
+   "skill": 26.18,
+   "within05": 75.01,
+   "r2": 0.8862
+  },
+  "lean": {
+   "features": 14,
+   "mae": 0.03573,
+   "clim_mae": 0.04804,
+   "skill": 25.63,
+   "within05": 74.83,
+   "r2": 0.8832
+  },
+  "mae_cost_pct": 0.76,
+  "skill_drop_pts": 0.55
+ },
+ "y_60": {
+  "full": {
+   "features": 36,
+   "mae": 0.03816,
+   "clim_mae": 0.04904,
+   "skill": 22.2,
+   "within05": 72.63,
+   "r2": 0.8677
+  },
+  "lean": {
+   "features": 14,
+   "mae": 0.0384,
+   "clim_mae": 0.04904,
+   "skill": 21.7,
+   "within05": 72.57,
+   "r2": 0.8644
+  },
+  "mae_cost_pct": 0.63,
+  "skill_drop_pts": 0.5
+ }
+}

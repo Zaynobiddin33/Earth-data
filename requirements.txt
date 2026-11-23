@@ -1,0 +1,6 @@
+# Tested with Python 3.14
+earthengine-api>=1.7
+polars>=1.40
+lightgbm>=4.7
+numpy>=2.0
+scipy>=1.15

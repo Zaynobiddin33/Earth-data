@@ -1,0 +1,117 @@
+{
+ "features": [
+  "ndvi",
+  "ndvi_lag1",
+  "ndvi_lag2",
+  "ndvi_lag3",
+  "ndvi_slope",
+  "ndvi_accel",
+  "ndvi_anom",
+  "ndvi_normal",
+  "spring_ndvi_norm",
+  "summer_ndvi_norm",
+  "crop_type_id",
+  "landcover",
+  "doy",
+  "month",
+  "h_amp1",
+  "h_amp2",
+  "h_ratio",
+  "h_phase1",
+  "h_phase2"
+ ],
+ "horizons": [
+  "y_15",
+  "y_30",
+  "y_45",
+  "y_60"
+ ],
+ "step_days": 15,
+ "train_years": [
+  2019,
+  2023
+ ],
+ "val_years": [
+  2024,
+  2024
+ ],
+ "test_years": [
+  2025,
+  2025
+ ],
+ "crop_type_map": {
+  "0": "cotton",
+  "1": "double",
+  "2": "fallow",
+  "3": "mixed",
+  "4": "wheat"
+ },
+ "params": {
+  "objective": "regression_l1",
+  "n_estimators": 1500,
+  "learning_rate": 0.05,
+  "num_leaves": 63,
+  "min_child_samples": 40,
+  "subsample": 0.8,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.8,
+  "n_jobs": 8,
+  "verbose": -1
+ },
+ "models": {
+  "y_15": {
+   "model": "models/s2_y_15.txt",
+   "trees": 160,
+   "best_iteration": 160
+  },
+  "y_30": {
+   "model": "models/s2_y_30.txt",
+   "trees": 363,
+   "best_iteration": 363
+  },
+  "y_45": {
+   "model": "models/s2_y_45.txt",
+   "trees": 229,
+   "best_iteration": 229
+  },
+  "y_60": {
+   "model": "models/s2_y_60.txt",
+   "trees": 445,
+   "best_iteration": 445
+  }
+ },
+ "results": {
+  "y_15": {
+   "mae": 0.02217,
+   "clim_mae": 0.03979,
+   "pers_mae": 0.03291,
+   "skill": 44.29,
+   "within05": 88.44,
+   "n": 205981
+  },
+  "y_30": {
+   "mae": 0.02756,
+   "clim_mae": 0.03907,
+   "pers_mae": 0.05454,
+   "skill": 29.46,
+   "within05": 82.14,
+   "n": 205981
+  },
+  "y_45": {
+   "mae": 0.03144,
+   "clim_mae": 0.03846,
+   "pers_mae": 0.07262,
+   "skill": 18.24,
+   "within05": 78.04,
+   "n": 205981
+  },
+  "y_60": {
+   "mae": 0.03422,
+   "clim_mae": 0.03781,
+   "pers_mae": 0.08702,
+   "skill": 9.48,
+   "within05": 75.13,
+   "n": 205981
+  }
+ }
+}

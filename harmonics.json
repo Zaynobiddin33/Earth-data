@@ -1,0 +1,78 @@
+{
+ "y_15": {
+  "current": {
+   "features": 14,
+   "mae": 0.02291,
+   "skill": 42.42,
+   "within05": 87.69,
+   "double_within05": 78.7,
+   "trees": 115
+  },
+  "harmonic": {
+   "features": 19,
+   "mae": 0.02217,
+   "skill": 44.29,
+   "within05": 88.44,
+   "double_within05": 80.26,
+   "trees": 160
+  },
+  "mae_gain_pct": 3.23
+ },
+ "y_30": {
+  "current": {
+   "features": 14,
+   "mae": 0.02899,
+   "skill": 25.81,
+   "within05": 80.72,
+   "double_within05": 64.86,
+   "trees": 173
+  },
+  "harmonic": {
+   "features": 19,
+   "mae": 0.02756,
+   "skill": 29.46,
+   "within05": 82.14,
+   "double_within05": 67.63,
+   "trees": 363
+  },
+  "mae_gain_pct": 4.933
+ },
+ "y_45": {
+  "current": {
+   "features": 14,
+   "mae": 0.03286,
+   "skill": 14.55,
+   "within05": 76.69,
+   "double_within05": 57.46,
+   "trees": 197
+  },
+  "harmonic": {
+   "features": 19,
+   "mae": 0.03144,
+   "skill": 18.24,
+   "within05": 78.04,
+   "double_within05": 60.23,
+   "trees": 229
+  },
+  "mae_gain_pct": 4.321
+ },
+ "y_60": {
+  "current": {
+   "features": 14,
+   "mae": 0.03528,
+   "skill": 6.69,
+   "within05": 74.2,
+   "double_within05": 53.1,
+   "trees": 201
+  },
+  "harmonic": {
+   "features": 19,
+   "mae": 0.03422,
+   "skill": 9.48,
+   "within05": 75.13,
+   "double_within05": 55.7,
+   "trees": 445
+  },
+  "mae_gain_pct": 3.005
+ }
+}

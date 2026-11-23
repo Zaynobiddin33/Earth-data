@@ -1,0 +1,813 @@
+{
+ "test_years": [
+  2025,
+  2025
+ ],
+ "n_rows": 205981,
+ "horizons": {
+  "y_15": {
+   "n": 205981,
+   "by_landcover": {
+    "tree cover": {
+     "n": 6058,
+     "n_dropped_no_clim": 8,
+     "model_mae": 0.03286,
+     "clim_mae": 0.04936,
+     "skill_pct": 33.43
+    },
+    "shrubland": {
+     "n": 16859,
+     "n_dropped_no_clim": 1,
+     "model_mae": 0.01251,
+     "clim_mae": 0.02396,
+     "skill_pct": 47.78
+    },
+    "grassland": {
+     "n": 25628,
+     "n_dropped_no_clim": 11,
+     "model_mae": 0.01655,
+     "clim_mae": 0.03159,
+     "skill_pct": 47.61
+    },
+    "cropland": {
+     "n": 118162,
+     "n_dropped_no_clim": 14,
+     "model_mae": 0.02881,
+     "clim_mae": 0.05279,
+     "skill_pct": 45.42
+    },
+    "bare / sparse": {
+     "n": 38209,
+     "n_dropped_no_clim": 9,
+     "model_mae": 0.00833,
+     "clim_mae": 0.0114,
+     "skill_pct": 26.97
+    }
+   },
+   "all": {
+    "n": 205938,
+    "n_dropped_no_clim": 43,
+    "model_mae": 0.02216,
+    "clim_mae": 0.03979,
+    "skill_pct": 44.31
+   },
+   "cropland": {
+    "n": 118162,
+    "n_dropped_no_clim": 14,
+    "model_mae": 0.02881,
+    "clim_mae": 0.05279,
+    "skill_pct": 45.42
+   },
+   "non-cropland": {
+    "n": 87776,
+    "n_dropped_no_clim": 29,
+    "model_mae": 0.0132,
+    "clim_mae": 0.02229,
+    "skill_pct": 40.78
+   },
+   "ranking_cropland": {
+    "dates_scored": 22,
+    "model_rho": 0.7481,
+    "nowcast_rho": 0.6678,
+    "model_wins_pct": 81.8,
+    "per_date": [
+     {
+      "date": "2025-01-14",
+      "n": 3133,
+      "model": 0.7517,
+      "nowcast": 0.3605
+     },
+     {
+      "date": "2025-01-29",
+      "n": 1889,
+      "model": 0.4265,
+      "nowcast": 0.1998
+     },
+     {
+      "date": "2025-02-13",
+      "n": 2066,
+      "model": 0.6065,
+      "nowcast": 0.3863
+     },
+     {
+      "date": "2025-02-28",
+      "n": 3253,
+      "model": 0.7911,
+      "nowcast": 0.6332
+     },
+     {
+      "date": "2025-03-15",
+      "n": 4118,
+      "model": 0.7177,
+      "nowcast": 0.6995
+     },
+     {
+      "date": "2025-03-30",
+      "n": 4159,
+      "model": 0.5233,
+      "nowcast": 0.4902
+     },
+     {
+      "date": "2025-04-14",
+      "n": 6446,
+      "model": 0.8036,
+      "nowcast": 0.7253
+     },
+     {
+      "date": "2025-04-29",
+      "n": 6881,
+      "model": 0.7743,
+      "nowcast": 0.6901
+     },
+     {
+      "date": "2025-05-14",
+      "n": 7016,
+      "model": 0.8596,
+      "nowcast": 0.7539
+     },
+     {
+      "date": "2025-05-29",
+      "n": 7017,
+      "model": 0.8054,
+      "nowcast": 0.7766
+     },
+     {
+      "date": "2025-06-13",
+      "n": 7127,
+      "model": 0.7814,
+      "nowcast": 0.6964
+     },
+     {
+      "date": "2025-06-28",
+      "n": 7889,
+      "model": 0.8388,
+      "nowcast": 0.827
+     },
+     {
+      "date": "2025-07-13",
+      "n": 7919,
+      "model": 0.8331,
+      "nowcast": 0.8583
+     },
+     {
+      "date": "2025-07-28",
+      "n": 7919,
+      "model": 0.8566,
+      "nowcast": 0.8458
+     },
+     {
+      "date": "2025-08-12",
+      "n": 7855,
+      "model": 0.8002,
+      "nowcast": 0.8019
+     },
+     {
+      "date": "2025-08-27",
+      "n": 7738,
+      "model": 0.8358,
+      "nowcast": 0.7898
+     },
+     {
+      "date": "2025-09-11",
+      "n": 7769,
+      "model": 0.7089,
+      "nowcast": 0.7334
+     },
+     {
+      "date": "2025-09-26",
+      "n": 7698,
+      "model": 0.709,
+      "nowcast": 0.7471
+     },
+     {
+      "date": "2025-10-11",
+      "n": 5352,
+      "model": 0.7754,
+      "nowcast": 0.7126
+     },
+     {
+      "date": "2025-10-26",
+      "n": 2425,
+      "model": 0.7173,
+      "nowcast": 0.6962
+     },
+     {
+      "date": "2025-11-10",
+      "n": 2144,
+      "model": 0.7558,
+      "nowcast": 0.7047
+     },
+     {
+      "date": "2025-11-25",
+      "n": 271,
+      "model": 0.7865,
+      "nowcast": 0.5637
+     }
+    ]
+   }
+  },
+  "y_30": {
+   "n": 205981,
+   "by_landcover": {
+    "shrubland": {
+     "n": 16858,
+     "n_dropped_no_clim": 2,
+     "model_mae": 0.0137,
+     "clim_mae": 0.0231,
+     "skill_pct": 40.68
+    },
+    "grassland": {
+     "n": 25636,
+     "n_dropped_no_clim": 3,
+     "model_mae": 0.01931,
+     "clim_mae": 0.02933,
+     "skill_pct": 34.18
+    },
+    "cropland": {
+     "n": 118174,
+     "n_dropped_no_clim": 2,
+     "model_mae": 0.03725,
+     "clim_mae": 0.05222,
+     "skill_pct": 28.67
+    },
+    "tree cover": {
+     "n": 6066,
+     "n_dropped_no_clim": 0,
+     "model_mae": 0.03798,
+     "clim_mae": 0.05049,
+     "skill_pct": 24.77
+    },
+    "bare / sparse": {
+     "n": 38211,
+     "n_dropped_no_clim": 7,
+     "model_mae": 0.00813,
+     "clim_mae": 0.01098,
+     "skill_pct": 25.9
+    }
+   },
+   "all": {
+    "n": 205967,
+    "n_dropped_no_clim": 14,
+    "model_mae": 0.02756,
+    "clim_mae": 0.03907,
+    "skill_pct": 29.46
+   },
+   "cropland": {
+    "n": 118174,
+    "n_dropped_no_clim": 2,
+    "model_mae": 0.03725,
+    "clim_mae": 0.05222,
+    "skill_pct": 28.67
+   },
+   "non-cropland": {
+    "n": 87793,
+    "n_dropped_no_clim": 12,
+    "model_mae": 0.01451,
+    "clim_mae": 0.02136,
+    "skill_pct": 32.06
+   },
+   "ranking_cropland": {
+    "dates_scored": 22,
+    "model_rho": 0.598,
+    "nowcast_rho": 0.4859,
+    "model_wins_pct": 86.4,
+    "per_date": [
+     {
+      "date": "2025-01-14",
+      "n": 3133,
+      "model": 0.5252,
+      "nowcast": 0.4809
+     },
+     {
+      "date": "2025-01-29",
+      "n": 1889,
+      "model": 0.4036,
+      "nowcast": 0.2449
+     },
+     {
+      "date": "2025-02-13",
+      "n": 2066,
+      "model": 0.468,
+      "nowcast": 0.3475
+     },
+     {
+      "date": "2025-02-28",
+      "n": 3266,
+      "model": 0.6035,
+      "nowcast": 0.5675
+     },
+     {
+      "date": "2025-03-15",
+      "n": 4118,
+      "model": 0.5348,
+      "nowcast": 0.4202
+     },
+     {
+      "date": "2025-03-30",
+      "n": 4159,
+      "model": 0.5574,
+      "nowcast": 0.5632
+     },
+     {
+      "date": "2025-04-14",
+      "n": 6446,
+      "model": 0.6782,
+      "nowcast": 0.4877
+     },
+     {
+      "date": "2025-04-29",
+      "n": 6881,
+      "model": 0.698,
+      "nowcast": 0.4044
+     },
+     {
+      "date": "2025-05-14",
+      "n": 7016,
+      "model": 0.6451,
+      "nowcast": 0.4672
+     },
+     {
+      "date": "2025-05-29",
+      "n": 7017,
+      "model": 0.6364,
+      "nowcast": 0.4569
+     },
+     {
+      "date": "2025-06-13",
+      "n": 7127,
+      "model": 0.7024,
+      "nowcast": 0.5193
+     },
+     {
+      "date": "2025-06-28",
+      "n": 7889,
+      "model": 0.674,
+      "nowcast": 0.6893
+     },
+     {
+      "date": "2025-07-13",
+      "n": 7919,
+      "model": 0.6779,
+      "nowcast": 0.6848
+     },
+     {
+      "date": "2025-07-28",
+      "n": 7919,
+      "model": 0.6274,
+      "nowcast": 0.5911
+     },
+     {
+      "date": "2025-08-12",
+      "n": 7855,
+      "model": 0.6871,
+      "nowcast": 0.5859
+     },
+     {
+      "date": "2025-08-27",
+      "n": 7738,
+      "model": 0.6224,
+      "nowcast": 0.5305
+     },
+     {
+      "date": "2025-09-11",
+      "n": 7769,
+      "model": 0.5462,
+      "nowcast": 0.5412
+     },
+     {
+      "date": "2025-09-26",
+      "n": 7698,
+      "model": 0.5693,
+      "nowcast": 0.5503
+     },
+     {
+      "date": "2025-10-11",
+      "n": 5352,
+      "model": 0.491,
+      "nowcast": 0.3979
+     },
+     {
+      "date": "2025-10-26",
+      "n": 2425,
+      "model": 0.6407,
+      "nowcast": 0.519
+     },
+     {
+      "date": "2025-11-10",
+      "n": 2143,
+      "model": 0.5516,
+      "nowcast": 0.3201
+     },
+     {
+      "date": "2025-11-25",
+      "n": 271,
+      "model": 0.6162,
+      "nowcast": 0.3187
+     }
+    ]
+   }
+  },
+  "y_45": {
+   "n": 205981,
+   "by_landcover": {
+    "tree cover": {
+     "n": 6066,
+     "n_dropped_no_clim": 0,
+     "model_mae": 0.04264,
+     "clim_mae": 0.04921,
+     "skill_pct": 13.34
+    },
+    "shrubland": {
+     "n": 16860,
+     "n_dropped_no_clim": 0,
+     "model_mae": 0.01543,
+     "clim_mae": 0.02226,
+     "skill_pct": 30.71
+    },
+    "grassland": {
+     "n": 25635,
+     "n_dropped_no_clim": 4,
+     "model_mae": 0.02226,
+     "clim_mae": 0.02854,
+     "skill_pct": 22.0
+    },
+    "cropland": {
+     "n": 118174,
+     "n_dropped_no_clim": 2,
+     "model_mae": 0.04275,
+     "clim_mae": 0.05167,
+     "skill_pct": 17.26
+    },
+    "bare / sparse": {
+     "n": 38215,
+     "n_dropped_no_clim": 3,
+     "model_mae": 0.00861,
+     "clim_mae": 0.01051,
+     "skill_pct": 18.13
+    }
+   },
+   "all": {
+    "n": 205970,
+    "n_dropped_no_clim": 11,
+    "model_mae": 0.03144,
+    "clim_mae": 0.03846,
+    "skill_pct": 18.24
+   },
+   "cropland": {
+    "n": 118174,
+    "n_dropped_no_clim": 2,
+    "model_mae": 0.04275,
+    "clim_mae": 0.05167,
+    "skill_pct": 17.26
+   },
+   "non-cropland": {
+    "n": 87796,
+    "n_dropped_no_clim": 9,
+    "model_mae": 0.01623,
+    "clim_mae": 0.02068,
+    "skill_pct": 21.53
+   },
+   "ranking_cropland": {
+    "dates_scored": 22,
+    "model_rho": 0.4685,
+    "nowcast_rho": 0.3116,
+    "model_wins_pct": 81.8,
+    "per_date": [
+     {
+      "date": "2025-01-14",
+      "n": 3134,
+      "model": 0.2427,
+      "nowcast": 0.0941
+     },
+     {
+      "date": "2025-01-29",
+      "n": 1889,
+      "model": 0.322,
+      "nowcast": 0.2514
+     },
+     {
+      "date": "2025-02-13",
+      "n": 2066,
+      "model": 0.2439,
+      "nowcast": 0.1596
+     },
+     {
+      "date": "2025-02-28",
+      "n": 3266,
+      "model": 0.4066,
+      "nowcast": 0.4344
+     },
+     {
+      "date": "2025-03-15",
+      "n": 4118,
+      "model": 0.4582,
+      "nowcast": 0.4771
+     },
+     {
+      "date": "2025-03-30",
+      "n": 4159,
+      "model": 0.3193,
+      "nowcast": 0.2208
+     },
+     {
+      "date": "2025-04-14",
+      "n": 6446,
+      "model": 0.7029,
+      "nowcast": 0.2634
+     },
+     {
+      "date": "2025-04-29",
+      "n": 6881,
+      "model": 0.4869,
+      "nowcast": 0.1195
+     },
+     {
+      "date": "2025-05-14",
+      "n": 7016,
+      "model": 0.5077,
+      "nowcast": 0.1754
+     },
+     {
+      "date": "2025-05-29",
+      "n": 7017,
+      "model": 0.592,
+      "nowcast": 0.2503
+     },
+     {
+      "date": "2025-06-13",
+      "n": 7127,
+      "model": 0.5509,
+      "nowcast": 0.3865
+     },
+     {
+      "date": "2025-06-28",
+      "n": 7889,
+      "model": 0.4382,
+      "nowcast": 0.4997
+     },
+     {
+      "date": "2025-07-13",
+      "n": 7919,
+      "model": 0.4146,
+      "nowcast": 0.4214
+     },
+     {
+      "date": "2025-07-28",
+      "n": 7919,
+      "model": 0.4234,
+      "nowcast": 0.3846
+     },
+     {
+      "date": "2025-08-12",
+      "n": 7855,
+      "model": 0.5342,
+      "nowcast": 0.3345
+     },
+     {
+      "date": "2025-08-27",
+      "n": 7738,
+      "model": 0.4328,
+      "nowcast": 0.3701
+     },
+     {
+      "date": "2025-09-11",
+      "n": 7769,
+      "model": 0.5176,
+      "nowcast": 0.4637
+     },
+     {
+      "date": "2025-09-26",
+      "n": 7698,
+      "model": 0.4315,
+      "nowcast": 0.3543
+     },
+     {
+      "date": "2025-10-11",
+      "n": 5352,
+      "model": 0.5873,
+      "nowcast": 0.3741
+     },
+     {
+      "date": "2025-10-26",
+      "n": 2424,
+      "model": 0.5016,
+      "nowcast": 0.2374
+     },
+     {
+      "date": "2025-11-10",
+      "n": 2143,
+      "model": 0.5237,
+      "nowcast": 0.2795
+     },
+     {
+      "date": "2025-11-25",
+      "n": 271,
+      "model": 0.668,
+      "nowcast": 0.3039
+     }
+    ]
+   }
+  },
+  "y_60": {
+   "n": 205981,
+   "by_landcover": {
+    "tree cover": {
+     "n": 6043,
+     "n_dropped_no_clim": 23,
+     "model_mae": 0.04403,
+     "clim_mae": 0.049,
+     "skill_pct": 10.15
+    },
+    "shrubland": {
+     "n": 16858,
+     "n_dropped_no_clim": 2,
+     "model_mae": 0.01626,
+     "clim_mae": 0.02166,
+     "skill_pct": 24.94
+    },
+    "grassland": {
+     "n": 25585,
+     "n_dropped_no_clim": 54,
+     "model_mae": 0.02576,
+     "clim_mae": 0.02813,
+     "skill_pct": 8.45
+    },
+    "cropland": {
+     "n": 118169,
+     "n_dropped_no_clim": 7,
+     "model_mae": 0.04659,
+     "clim_mae": 0.05078,
+     "skill_pct": 8.25
+    },
+    "bare / sparse": {
+     "n": 38205,
+     "n_dropped_no_clim": 13,
+     "model_mae": 0.00868,
+     "clim_mae": 0.01029,
+     "skill_pct": 15.63
+    }
+   },
+   "all": {
+    "n": 205878,
+    "n_dropped_no_clim": 103,
+    "model_mae": 0.03421,
+    "clim_mae": 0.03781,
+    "skill_pct": 9.51
+   },
+   "cropland": {
+    "n": 118169,
+    "n_dropped_no_clim": 7,
+    "model_mae": 0.04659,
+    "clim_mae": 0.05078,
+    "skill_pct": 8.25
+   },
+   "non-cropland": {
+    "n": 87709,
+    "n_dropped_no_clim": 96,
+    "model_mae": 0.01753,
+    "clim_mae": 0.02033,
+    "skill_pct": 13.74
+   },
+   "ranking_cropland": {
+    "dates_scored": 22,
+    "model_rho": 0.3713,
+    "nowcast_rho": 0.1866,
+    "model_wins_pct": 77.3,
+    "per_date": [
+     {
+      "date": "2025-01-14",
+      "n": 3134,
+      "model": 0.3555,
+      "nowcast": 0.1246
+     },
+     {
+      "date": "2025-01-29",
+      "n": 1889,
+      "model": 0.2087,
+      "nowcast": 0.3806
+     },
+     {
+      "date": "2025-02-13",
+      "n": 2066,
+      "model": 0.2911,
+      "nowcast": 0.3998
+     },
+     {
+      "date": "2025-02-28",
+      "n": 3266,
+      "model": 0.3938,
+      "nowcast": 0.4425
+     },
+     {
+      "date": "2025-03-15",
+      "n": 4118,
+      "model": 0.1256,
+      "nowcast": 0.2288
+     },
+     {
+      "date": "2025-03-30",
+      "n": 4159,
+      "model": 0.4678,
+      "nowcast": -0.0358
+     },
+     {
+      "date": "2025-04-14",
+      "n": 6446,
+      "model": 0.515,
+      "nowcast": 0.0308
+     },
+     {
+      "date": "2025-04-29",
+      "n": 6881,
+      "model": 0.3527,
+      "nowcast": -0.0804
+     },
+     {
+      "date": "2025-05-14",
+      "n": 7016,
+      "model": 0.5631,
+      "nowcast": -0.0294
+     },
+     {
+      "date": "2025-05-29",
+      "n": 7017,
+      "model": 0.5029,
+      "nowcast": 0.1341
+     },
+     {
+      "date": "2025-06-13",
+      "n": 7127,
+      "model": 0.3569,
+      "nowcast": 0.2432
+     },
+     {
+      "date": "2025-06-28",
+      "n": 7889,
+      "model": 0.234,
+      "nowcast": 0.2784
+     },
+     {
+      "date": "2025-07-13",
+      "n": 7919,
+      "model": 0.2224,
+      "nowcast": 0.2094
+     },
+     {
+      "date": "2025-07-28",
+      "n": 7919,
+      "model": 0.3514,
+      "nowcast": 0.1357
+     },
+     {
+      "date": "2025-08-12",
+      "n": 7855,
+      "model": 0.4726,
+      "nowcast": 0.2404
+     },
+     {
+      "date": "2025-08-27",
+      "n": 7738,
+      "model": 0.2948,
+      "nowcast": 0.208
+     },
+     {
+      "date": "2025-09-11",
+      "n": 7769,
+      "model": 0.3508,
+      "nowcast": 0.3473
+     },
+     {
+      "date": "2025-09-26",
+      "n": 7698,
+      "model": 0.325,
+      "nowcast": 0.2881
+     },
+     {
+      "date": "2025-10-11",
+      "n": 5346,
+      "model": 0.444,
+      "nowcast": 0.0968
+     },
+     {
+      "date": "2025-10-26",
+      "n": 2424,
+      "model": 0.2828,
+      "nowcast": 0.0412
+     },
+     {
+      "date": "2025-11-10",
+      "n": 2144,
+      "model": 0.5766,
+      "nowcast": 0.173
+     },
+     {
+      "date": "2025-11-25",
+      "n": 271,
+      "model": 0.4816,
+      "nowcast": 0.2483
+     }
+    ]
+   }
+  }
+ }
+}

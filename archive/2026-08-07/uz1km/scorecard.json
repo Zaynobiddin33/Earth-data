@@ -1,0 +1,52 @@
+{
+ "issued": "2026-08-07",
+ "grid": "uz1km",
+ "scored_at": "2026-08-22",
+ "interval_level": 80,
+ "criterion": {
+  "primary": "empirical coverage of the published 80% interval, on cells with an observation at the valid date",
+  "pass_if": "coverage >= 0.75",
+  "secondary": "point forecast beats the climatological normal (skill > 0)",
+  "note": "coverage above 0.85 is reported as OVER-COVERED: it passes, but the intervals are wider than advertised and the conformal k should be re-fitted rather than quietly enjoyed."
+ },
+ "horizons": {
+  "y_15": {
+   "valid": "2026-08-22",
+   "n_forecast": 14998,
+   "n_observed": 14789,
+   "coverage": {
+    "achieved": 0.7481,
+    "n": 14789,
+    "ci95": [
+     0.741,
+     0.755
+    ],
+    "promised": 0.8,
+    "mean_width": 0.06411
+   },
+   "mae": 0.01779,
+   "clim_mae": 0.03409,
+   "skill_pct": 47.82,
+   "by_risk": {
+    "severe": {
+     "n": 71,
+     "mean_observed_anomaly": -0.2078
+    },
+    "high": {
+     "n": 322,
+     "mean_observed_anomaly": -0.10668
+    },
+    "moderate": {
+     "n": 903,
+     "mean_observed_anomaly": -0.05916
+    },
+    "normal": {
+     "n": 13493,
+     "mean_observed_anomaly": 0.01358
+    }
+   },
+   "verdict": "FAIL"
+  }
+ },
+ "overall": "FAIL"
+}

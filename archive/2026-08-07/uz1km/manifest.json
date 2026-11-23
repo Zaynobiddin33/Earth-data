@@ -1,0 +1,43 @@
+{
+ "grid": "uz1km",
+ "grid_label": "Uzbekistan 1 km sample",
+ "issued": "2026-08-07",
+ "valid": {
+  "y_15": "2026-08-22",
+  "y_30": "2026-09-06",
+  "y_45": "2026-09-21",
+  "y_60": "2026-10-06"
+ },
+ "horizons": [
+  "y_15",
+  "y_30",
+  "y_45",
+  "y_60"
+ ],
+ "interval": {
+  "level": 80,
+  "k": {
+   "y_15": 1.3,
+   "y_30": 1.4,
+   "y_45": 1.46,
+   "y_60": 1.48
+  }
+ },
+ "n_cells": 14998,
+ "archived_at": "2026-08-17",
+ "criterion_fixed_at": "2026-08-17",
+ "criterion": {
+  "primary": "empirical coverage of the published 80% interval, on cells with an observation at the valid date",
+  "pass_if": "coverage >= 0.75",
+  "secondary": "point forecast beats the climatological normal (skill > 0)",
+  "note": "coverage above 0.85 is reported as OVER-COVERED: it passes, but the intervals are wider than advertised and the conformal k should be re-fitted rather than quietly enjoyed."
+ },
+ "model_sha256": {
+  "s2_y_15.txt": "3737a66f588eb3c4",
+  "s2_y_30.txt": "458264698ece8d3b",
+  "s2_y_45.txt": "8755b0236e3d1409",
+  "s2_y_60.txt": "071c77d88624a453"
+ },
+ "quantile_model_count": 28,
+ "criterion_note": "The forecast was issued 2026-08-07; the pass criterion was fixed 2026-08-17, before any observation for the valid dates existed. It was NOT fixed at issue time. Say so."
+}
